@@ -1,0 +1,547 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.color {
+  color: #1e9edc;
+}
+
+#banner .img-banner {
+  width: 100%;
+}
+
+#banner .name-banner {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 14%;
+  /* top: 35%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#nav-bar .container {
+  /*responsive*/
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* màn hình mobie comemt lại khi pc mở ra lại */
+  flex-direction: column;
+  /* thay đổi flex-direction thành column khi sang màn hình mobie */
+}
+
+#nav-bar .container .have-icon {
+  padding: 20px;
+  text-decoration: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+#job-info .container .border.mani .job-ul-li {
+  list-style-type: none;
+}
+
+#nav-bar .container .nav-name-banner {
+  /*responsive*/
+  display: none;
+  /* khi ở màn hình mobie chúng ta display: none để ẩn đi */
+  /* padding: 0 80px; */
+}
+
+#nav-bar .container .nav-name-banner .banner-job {
+  color: #ccc;
+  font-size: smaller;
+}
+
+#about.bg-grey {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+#about .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .container #target {
+  /*responsive*/
+  flex: 1 0 100%;
+  border-right: 1px solid rgba(10, 10, 10);
+  /* padding: 4rem 4rem; */
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+#about .container #personal-info {
+  /*responsive*/
+  flex: 1 0 100%;
+  background-color: #f0f0f0;
+  /* padding: 4rem 4rem; */
+  padding: 1rem;
+}
+
+#about .container #personal-info .d-flex {
+  display: flex;
+}
+#about .container #personal-info .d-flex .d-title {
+  flex: 1 0 30%;
+}
+#about .container #personal-info .d-flex .d-value {
+  flex: 1 0 70%;
+}
+
+#about .container #personal-info .info {
+  padding: 0;
+}
+
+#about .container #personal-info .info .color-gray {
+  list-style-type: none;
+}
+
+#about .container #personal-info .info .color-gray .information {
+  font-weight: bold;
+}
+
+#job-info .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 0 4rem; */
+}
+
+#job-info .container .border {
+  flex: 0 1 100%;
+  border: 1px solid #dee2e6;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+#job-info .container .border .header {
+  display: flex;
+  align-items: center;
+}
+
+#job-info .container .border .header i {
+  margin-left: auto;
+  font-size: 2rem;
+  color: #ccc;
+}
+
+#job-info .container .border .main .job-ul-li {
+  padding-inline-start: 20px;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li {
+  list-style-type: none;
+  position: relative;
+  margin-top: 1rem;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -19px;
+  height: 10px;
+  width: 10px;
+  background-color: #1e9edc;
+  border-radius: 50%;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li .job-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li .time {
+  font-style: italic;
+  color: #999fb3;
+  display: inline-block;
+  margin: 0;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li .d-current {
+  background-color: #199cdb;
+  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
+#job-info .container .border .main .job-ul-li .ul-li .d-current .s-current {
+  color: white;
+}
+
+#job-info .container .border .flex-icon .main-icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+#job-info .container .border .flex-icon .main-icon .all-icon {
+  flex: 0 1 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#job-info .container .border .flex-icon .main-icon .all-icon .icon-vui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1e9edc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#job-info .container .border .main11 .category {
+  margin-top: 1rem;
+}
+
+#job-info .container .border .main11 .category .drum {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+#job-info .container .border .main11 .category .white {
+  background: #ccc;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 55px;
+}
+
+#certificate .container {
+  /* padding: 2rem 4rem; */
+  padding: 1rem;
+}
+
+#certificate .container .main-bg-grey {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+#certificate .container .main-bg-grey .giai-thuong {
+  flex: 0 1 100%;
+  display: flex;
+  margin-top: 2rem;
+  /* border-bottom: 1px solid #d6c08d; */
+  padding-bottom: 2rem;
+}
+
+#certificate .container .main-bg-grey .giai-thuong:nth-child(3) {
+  border-bottom: none;
+}
+
+#certificate .container .main-bg-grey .giai-thuong .d-border-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#certificate
+  .container
+  .main-bg-grey
+  .giai-thuong:nth-child(even)
+  .d-border-left {
+  /* border-left: 1px solid #d6c08d; */
+  /* padding-left: 1rem; */
+}
+#certificate
+  .container
+  .main-bg-grey
+  .giai-thuong:nth-child(odd)
+  .d-border-left {
+  padding-right: 1rem;
+}
+
+#certificate .container .main-bg-grey .giai-thuong img {
+  /* width: 125px; */
+  width: 100%;
+}
+
+#certificate .container .main-bg-grey .giai-thuong .thongtin {
+  flex: 1;
+  /* padding-left: 2rem; */
+}
+
+#certificate .container .main-bg-grey .giai-thuong .thongtin ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+#project .container {
+  padding: 1rem;
+}
+
+#project .container .project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#project .container .project .project-1 {
+  flex: 0 1 100%;
+  margin-top: 1rem;
+}
+
+#project .container .project .project-1 img {
+  width: 100%;
+}
+
+#project .container .project .project-1 .d-border {
+  border: 1px solid #ccc;
+}
+
+#project .container .project .project-1 .d-border .child-project {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#project .container .project .project-1 .d-border .time-child-project {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+#project
+  .container
+  .project
+  .project-1
+  .d-border
+  .time-child-project
+  .time-project {
+  background-color: #199cdb;
+  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  color: white;
+}
+#project
+  .container
+  .project
+  .project-1
+  .d-border
+  .time-child-project
+  .name-project {
+  display: flex;
+}
+#project
+  .container
+  .project
+  .project-1
+  .d-border
+  .time-child-project
+  .location-project {
+  display: flex;
+}
+
+#project .container .project .project-1 .d-border .d-flex {
+  padding: 1rem;
+  display: flex;
+}
+#project .container .project .project-1 .d-border .d-flex:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+#project .container .project .project-1 .d-border .d-flex .d-title {
+  flex: 0 1 30%;
+}
+#project .container .project .project-1 .d-border .d-flex .d-content {
+  flex: 1 0 70%;
+}
+
+#footer.bg-grey {
+  background-color: #f7f7f7;
+}
+#footer .container {
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: center;
+  padding: 1rem 0;
+  /* padding: 4rem; */
+}
+#footer .container .d-social {
+  display: flex;
+  /* margin-left: 1rem; */
+  align-items: center;
+}
+
+#footer .container .d-social p {
+  /* display: flex; */
+  display: none;
+  /* margin-left: 1rem; */
+  align-items: center;
+}
+
+#footer .container .icon {
+  color: #34a7de;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Nâng cao */
+
+.d-flex {
+  /* Dùng cho màn hình pc mới mở display : flex */
+  /* display: flex; */
+}
+
+.d-background {
+  padding: 1.5rem;
+  background-color: #0000ff;
+
+  /* reponsi */
+  /* Thêm flex-direction khi ở màn hình mobie */
+  display: flex;
+  flex-direction: column;
+}
+
+.d-left {
+  flex: 1 0 78%;
+}
+
+.d-top {
+  display: flex;
+  /* rps */
+  /* Thêm flex-direction khi ở màn hình mobie */
+  flex-direction: column;
+}
+
+.d-top-goals {
+  flex: 0 1 60%;
+  /* margin-right: 1.2rem; */
+  background-color: #f0f8ff;
+}
+
+.d-top-team {
+  flex: 1 0 40%;
+  /* margin-right: 1.2rem; */
+  background-color: #f0f8ff;
+  /* reponsi */
+  margin-top: 1.3rem;
+}
+
+.d-bottom {
+  display: flex;
+  padding-top: 1.2rem;
+  /* reponsi */
+  /* Thêm flex-direction khi ở màn hình mobie */
+  flex-direction: column;
+}
+
+.d-bottom-scope {
+  flex: 0 1 60%;
+  /* margin-right: 1.2rem; */
+  background-color: #f0f8ff;
+}
+
+.d-bottom-primary {
+  flex: 1 0 40%;
+  /* margin-right: 1.2rem; */
+  background-color: #f0f8ff;
+  /* reponsi */
+  margin-top: 1.3rem;
+}
+
+.d-right {
+  flex: 1 0 20%;
+  background-color: #f0f8ff;
+  /* reponsi */
+  margin-top: 1.3rem;
+}
+
+.h-color {
+  color: #0000ff;
+  border-bottom: 1.5px solid #b4c7c1;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.d-icon {
+  flex: 0 1 15%;
+  text-align: center;
+}
+
+.d-conten {
+  flex: 1 0 85%;
+  /* reponsi */
+  padding: 1rem 1.5rem;
+}
+
+.d-member {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.d-name {
+  padding-bottom: 1rem;
+}
+
+.bd-bt {
+  border-bottom: solid 1px #b4c7c1;
+}
+
+.d-in {
+  flex: 1 0 50%;
+  padding-left: 1.5rem;
+}
+
+.d-out {
+  flex: 1 0 50%;
+  /* reponsi */
+  padding: 1rem 0 0 1.5rem;
+}
+
+.d-in-out {
+  font-size: 1.3rem;
+}
+
+.mg-left {
+  /* margin-left: 1.5rem; */
+}
+
+.i-question {
+  padding-right: 1rem;
+}
+
+.d-question {
+  margin-bottom: 2rem;
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  background-color: #9e88ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boder-bt {
+  border-bottom: 2px dotted #90d4da;
+  padding-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.d-footer {
+  /* reponsi */
+  /* display: flex; */
+  padding: 0 0.5rem 1.5rem;
+}
+
+.number {
+  margin: 0.5rem 1rem;
+}
+
+i {
+  font-size: 1.3rem;
+  padding: 0 1rem;
+}

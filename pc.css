@@ -1,0 +1,179 @@
+@media (min-width: 1024px) {
+  #banner .name-banner {
+    top: 35%;
+  }
+
+  #nav-bar .container .nav-name-banner {
+    display: block;
+    padding: 0 80px;
+  }
+
+  #about .container #target {
+    padding: 4rem 4rem;
+  }
+
+  #about .container #personal-info {
+    padding: 4rem 4rem;
+  }
+
+  #job-info .container {
+    padding: 0 4rem;
+  }
+
+  #certificate .container {
+    padding: 2rem 4rem;
+  }
+
+  #certificate .container .main-bg-grey .giai-thuong img {
+    width: 125px;
+  }
+
+  #certificate .container .main-bg-grey .giai-thuong .thongtin {
+    padding-left: 2rem;
+  }
+
+  #footer .container {
+    padding: 4rem;
+  }
+
+  #footer .container .d-social {
+    margin-left: 1rem;
+  }
+
+  /* Nâng cao */
+  .d-background {
+    /* Khi reponsi sang mobie chuyển thành column nên khi về PC
+     ta chuyển thành flex-direction:Row */
+    flex-direction: row;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .d-left {
+    flex: 1 0 78%;
+  }
+
+  .d-top {
+    /* Khi reponsi sang mobie chuyển thành column nên khi về PC 
+    ta chuyển thành flex-direction:Row */
+    flex-direction: row;
+  }
+
+  .d-top-goals {
+    margin-right: 1.2rem;
+  }
+
+  .d-top-team {
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+  }
+
+  .d-bottom {
+    flex-direction: row;
+
+    padding-top: 0;
+  }
+
+  .d-bottom-scope {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .d-bottom-primary {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 1.3rem;
+  }
+
+  .d-right {
+    margin-top: 0;
+    margin-left: 1.3rem;
+  }
+
+  .h-color {
+    color: #0000ff;
+    border-bottom: 1.5px solid #b4c7c1;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .d-icon {
+    flex: 0 1 15%;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .question {
+    padding: 0 0.5rem 1rem;
+  }
+
+  .d-member {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  .d-name {
+    padding-bottom: 1rem;
+  }
+
+  .d-in {
+    flex: 1 0 50%;
+    padding-left: 1.5rem;
+  }
+
+  .d-out {
+    flex: 1 0 50%;
+    /* reponsi */
+    /* padding: 1rem 0 0 1.5rem; */
+  }
+
+  .d-in-out {
+    font-size: 1.3rem;
+  }
+
+  .mg-left {
+    margin-left: 1.5rem;
+  }
+
+  .i-question {
+    padding-right: 1rem;
+  }
+
+  .d-question {
+    margin-bottom: 2rem;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    background-color: #9e88ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boder-bt {
+    border-bottom: 2px dotted #90d4da;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .d-footer {
+    /* reponsi */
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 0.5rem 1.5rem; */
+  }
+
+  .number {
+    margin: 0.5rem 1rem;
+  }
+
+  i {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+}
